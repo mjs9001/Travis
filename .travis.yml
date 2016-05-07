@@ -1,0 +1,21 @@
+
+language: node_js
+node_js:
+- 0.10.30
+before_script:
+# - npm link
+# - mkdir -p shippable/codecoverage
+after_success:
+- echo $TOTO
+- git remote -v
+- git config --global user.email "mithun_shriyan@yahoo.in"
+- git config --global user.name "mjs9001"
+- git checkout master
+- npm version patch
+- git commit -am "[skip ci] bump version"
+- git log --oneline
+- git remote set-url origin git@github.com:mjs9001/Travis.git
+- git push origin master
+
+script:
+- node hello.js
