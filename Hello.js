@@ -1,1 +1,4 @@
-window.alert("Mithun Shriyan")
+Function Hello
+{
+ alert("Mithun Shriyan")
+}
