@@ -18,4 +18,4 @@ after_success:
 - git push origin master
 
 script:
-- node hello.js
+- node Hello.js
