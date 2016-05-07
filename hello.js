@@ -1,4 +1,4 @@
-Function Hello ()
+Function Hevvvo ()
 {
  alert("Mithun Shriyan")
 }
