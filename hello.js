@@ -1,4 +1,4 @@
-Function Hevvvo ()
+function Hevvvo ()
 {
  alert("Mithun Shriyan")
 }
